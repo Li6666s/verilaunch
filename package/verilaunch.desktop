@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=VeriLaunch
+Name[en]=VeriLaunch
+Comment=Lightweight GUI launcher for Verilator
+Exec=verilaunch
+Icon=verilaunch
+Terminal=false
+Categories=Development;Electronics;Engineering;
+Keywords=verilator;fpga;simulation;仿真;

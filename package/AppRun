@@ -1,0 +1,6 @@
+#!/bin/bash
+# AppImage 标准 AppRun：设置环境后启动随包的 PyInstaller 可执行文件。
+set -e
+APPDIR="$(dirname "$(readlink -f "$0")")"
+unset PYTHONHOME PYTHONPATH
+exec "$APPDIR/usr/bin/verilaunch/verilaunch" "$@"

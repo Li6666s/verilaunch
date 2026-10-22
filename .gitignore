@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Packaging artifacts
+package/build/
+package/dist/
+package/AppDir/
+package/tools/
+package/*.spec
+package/*.AppImage
+package/*.tar.gz
+
+# Simulation outputs (as a courtesy for local dev)
+*.fst
+*.vcd
+obj_dir/
+
+# Editor / system
+*~
+*.swp
+.DS_Store
+.idea/
+.vscode/
